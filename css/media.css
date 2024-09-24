@@ -1,0 +1,414 @@
+@media (max-width: 428px) {
+  .modelos {
+    width: 100%;
+  }
+  .nav-bar-content img {
+    width: 50px;
+  }
+  .banner-1 {
+    height: 330px;
+    background-position: top;
+  }
+  .banner-1 .--h1 {
+    font-size: 20px;
+  }
+  .button-to-pc {
+    display: none;
+  }
+
+  .car-model {
+    height: 100vh;
+    justify-content: center;
+  }
+  .name-car-text {
+    font-size: 40px;
+  }
+  .aventador-img img,
+  .huracan-img img,
+  .gallardo-img img,
+  .urus-img img {
+    font-weight: 1000;
+    height: 140px;
+    width: 290px;
+    position: relative;
+    bottom: 80px;
+  }
+  .banner-single-page {
+    height: 60vh;
+    background-position: top;
+  }
+  .banner-single-content .--h1 {
+    font-size: 32px;
+  }
+  .banner-single-content .--h2 {
+    font-size: 26px;
+  }
+
+  .realidade-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .realidade-content h2 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .realidade-content p {
+    width: 80%;
+    margin: 0px auto 20px auto;
+    font-size: 20px;
+  }
+  .side-lambo {
+    width: 389px;
+    margin-top: 60px;
+  }
+  .visao-geral-content {
+    text-align: center;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .visao-geral-content p {
+    width: 97%;
+    font-size: 18px;
+    font-family: "Jura";
+    
+  }
+  .exterior{
+    display: flex;
+    flex-direction: column;
+  }
+  .exterior-image{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position:top;
+  }
+}
+
+@media (min-width: 429px) and (max-width: 1278px) {
+  .nav-bar {
+    width: 100%;
+  }
+  .modelos {
+    width: 100%;
+  }
+  .banner-1 {
+    height: 400px;
+    background-position: top;
+  }
+  .banner-1 .--h1 {
+    font-size: 30px;
+  }
+
+  .car-model {
+    height: 100vh;
+    justify-content: center;
+  }
+  .name-car-text {
+    font-size: 70px;
+    position: relative;
+    right: 60px;
+  }
+
+  .to-btn,
+  .to-btn-d {
+    width: 400px;
+    position: relative;
+    bottom: 200px;
+  }
+  .revender {
+    height: 50vh;
+    background-position: top;
+  }
+  .revender-content {
+    text-align: center;
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    height: 120px;
+    padding: 20px;
+  }
+  .footer-content p.--h3 {
+    font-weight: lighter;
+    font-size: 25px;
+  }
+  footer i {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .banner-single-page {
+    height: 60vh;
+    background-position: top;
+  }
+  .banner-single-content .--h1 {
+    font-size: 52px;
+  }
+  .banner-single-content .--h2 {
+    font-size: 36px;
+  }
+  .realidade-aumentada {
+    overflow-x: hidden;
+  }
+  .realidade-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+  .realidade-content h2 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 36px;
+  }
+  .realidade-content p {
+    text-align: center;
+    width: 80%;
+    margin: 0px auto 10px auto;
+    font-size: 30px;
+  }
+  .qr-code {
+    margin-top: 100px;
+    width: 40%;
+  }
+  .side-lambo {
+    width: 1100px;
+    margin-top: 300px;
+  }
+  .visao-geral {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+  }
+  .bd-1.aventador {
+    height: 50%;
+    width: 100%;
+  }
+  .visao-geral-content {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .visao-geral-content p {
+    font-size: 28px;
+    font-weight: lighter;
+    margin: 0 auto;
+    width: 97%;
+  }
+  .visao-geral-content h2 {
+    font-size: 40px;
+    margin: 0 auto;
+    width: 97%;
+  }
+  .exterior{
+    justify-content: space-between;
+    display: flex;
+   flex-direction: row;
+   height: 90vh;
+  }
+  .exterior-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .exterior-image{
+    width: 30%;
+    height: 100%;
+    background-size: cover;
+    background-position:top;
+  }
+  .exterior-content h2{
+    font-size: 40px;
+  }
+  .exterior-content P{
+    font-size: 27px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .banner-1 {
+    height: 100vh;
+    background-position: top;
+  }
+  .banner-1 .--h1 {
+    font-size: 54px;
+  }
+  .banner-1 .--h2 {
+    font-size: 34px;
+  }
+  .car-model {
+    display: flex;
+    flex-direction: row;
+    height: 110vh;
+  }
+  .name-car-text p {
+    font-size: 120px;
+  }
+  .aventador-img img,
+  .gallardo-img img {
+    width: 959px;
+    position: relative;
+    bottom: 430px;
+    right: 100px;
+  }
+  .huracan-img img,
+  .urus-img img {
+    width: 959px;
+    position: relative;
+    bottom: 400px;
+    left: 100px;
+  }
+
+  .to-btn {
+    width: 400px;
+    position: relative;
+    bottom: 430px;
+  }
+  .to-btn-d {
+    width: 400px;
+    position: relative;
+    bottom: 400px;
+  }
+  .name-car-text.aventador,
+  .name-car-text.gallardo {
+    position: relative;
+    left: 150px;
+  }
+  .name-car-text.huracan,
+  .name-car-text.urus {
+    position: relative;
+    right: 150px;
+  }
+  .revender {
+    height: 100vh;
+    background-position: top;
+  }
+  .revender-content {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 90%;
+  }
+  .revender-content p.--h1 {
+    font-size: 54px;
+  }
+  .revender-content p.--h2 {
+    font-size: 34px;
+  }
+  footer {
+    padding: 30px;
+  }
+  .footer-content p.--h3 {
+    font-weight: lighter;
+    font-size: 28px;
+  }
+  footer i {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .banner-single-page {
+    height: 100vh;
+    background-position: top;
+  }
+  .banner-single-content .--h1 {
+    font-size: 72px;
+  }
+  .banner-single-content .--h2 {
+    font-size: 36px;
+  }
+  .realidade-aumentada {
+    padding-top: 250px;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+  .realidade-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .realidade-content h2 {
+    font-size: 44px;
+    text-transform: uppercase;
+  }
+  .realidade-aumentada p {
+    font-size: 32px;
+
+    width: 60%;
+  }
+  .realidade-content-2 {
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .realidade-content-2 .side-lambo {
+    width: 900px;
+    position: absolute;
+    right: 0px;
+  }
+  .visao-geral-content {
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+  }
+  .visao-geral-content p,
+  .visao-geral-content h2 {
+    width: 90%;
+
+    margin: 0 auto;
+  }
+  .visao-geral-content h2{
+    font-size: 40px;
+  }
+  .visao-geral-content p{
+    font-size: 30px;
+  }
+  .exterior{
+    justify-content: space-between;
+    display: flex;
+   flex-direction: row;
+   height: 90vh;
+  }
+  .exterior-content{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .exterior-image{
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+    background-position:top;
+  }
+  .exterior-content h2{
+    font-size: 40px;
+  }
+  .exterior-content P{
+    font-size: 27px;
+  }
+}

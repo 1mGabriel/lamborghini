@@ -1,0 +1,19 @@
+.revender{
+    width: 100%;
+    background-image: url("../image-pc/banner-2.png");
+    background-size: cover;
+}
+.revender-content{
+    width: 90%;
+    margin: 0 auto;
+    font-family: "Orbitron";
+    color: #a7a7a7;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.revender-content svg{
+    cursor: pointer;
+}
+.--h1{
+font-size: 25px;
+}

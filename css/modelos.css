@@ -1,0 +1,91 @@
+.modelos{
+    height: 100vh;
+    width: 100%;
+    scroll-snap-type: x mandatory;
+    overflow-y: scroll;
+
+}
+
+.car-background{
+    background-image: url("../image-pc/lambo-bgd.png");
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-color-w{
+    position: sticky;
+    top: 0;
+    left: 0;
+    scroll-snap-align: start;
+    background-color: #fff;
+}
+.background-color-d{
+    position: sticky;
+    top: 0;
+    left: 0;
+    scroll-snap-align: start;
+    background-color: #000;
+}
+.car-background-2{
+    background-image: url("../image-pc/lambo-bgd.png");
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.car-model{
+    padding: 10px;
+    font-family: "Orbitron";
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+.name-car-text{
+    color: #BCBABA;
+    text-transform: uppercase;
+}
+.name-car-text p{
+    font-weight: bold;
+}
+.to-btn a{
+    text-decoration: none ;
+    color: #000;
+}
+.to-btn-d a{
+    text-decoration: none ;
+    color: #fff;
+}
+.to-btn{
+    padding: 15px;
+    width: 300px;
+    font-size: 14px;
+    font-family: "Orbitron";
+    font-weight: bold;
+    border: 2px solid #292929;
+    background-color: #ffffff;
+    opacity: .7;
+    transition: .3s;
+}
+.to-btn:hover{
+    opacity: 1;
+}
+.to-btn-d{
+    padding: 15px;
+    width: 300px;
+    font-size: 14px;
+    font-family: "Orbitron";
+    font-weight: bold;
+    color: #fff;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    opacity: .7;
+    transition: .3s;
+}
+.to-btn-d:hover{
+    opacity: 1;
+}

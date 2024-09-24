@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+   
+}
+.hide{
+    display: none;
+}
+body{
+    width: 100%;
+}
+/* Oculta a barra de rolagem, mas permite a rolagem */
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+  
+  /* Oculta completamente a barra de rolagem */
+  html {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+  
+  html::-webkit-scrollbar {
+    display: none; /* Chrome, Safari e outros WebKit */
+  }
+  

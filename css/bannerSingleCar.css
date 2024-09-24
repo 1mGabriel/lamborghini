@@ -1,0 +1,39 @@
+.banner-single-page{
+    width: 100%;
+    background-size: cover;
+}
+.banner-single-page.aventador{
+    background-image: url("../image-pc/banner-3.png");
+    
+}
+.banner-single-page.huracan{
+    background-image: url("../image-pc/banner-4.png");
+    
+}
+.banner-single-page.urus{
+    background-image: url("../image-pc/banner-5.png");
+    
+}
+.banner-single-page.gallardo{
+    background-image: url("../image-pc/banner-6.png");
+    
+}
+
+.banner-single-content{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Orbitron";
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.background{
+
+    height: 100%;
+    background-color: #00000038;
+}

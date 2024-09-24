@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- Fontes -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+ <!--  -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+ <!-- style -->
+    <link rel="stylesheet" href="singleCar.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/nav-bar.css">
+    <link rel="stylesheet" href="./css/bannerSingleCar.css">
+    <link rel="stylesheet" href="./css/infos.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+ <!-- animations -->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Huracan</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-bar-content">
+           <a href="index.html"><img src="./image-pc/Lamborghini-Logo.png" alt="logo da lamborghini"></a>
+           <a href="#modelos"><p>Modelos</p></a>
+        </div>
+          </nav>
+    <div class="banner-single-page huracan">
+      <div class="background">
+        <div data-aos="fade-zoom-in" class="banner-single-content">
+            <p class="--h1">Huracan</p>
+        <p class="--h2">Além do conceito</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="realidade-aumentada">
+        <div class="realidade-content">
+            <h2>Realidade aumentada</h2>
+            <p>Enquadre o código QR com seu smartphone e ative a experiência de Realidade Aumentada da Lamborghini.</p>
+            <div class="realidade-content-2">
+                <img data-aos="fade-zoom-in" class="qr-code" src="./image-pc/qr-code.png" alt="qr-code">
+                <img data-aos="fade-left"  class="side-lambo" src="./image-pc/sidelambo-2-mb.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="visao-geral">
+      
+        <div data-aos="fade-zoom-in" class="visao-geral-content">
+            <h2 data-aos="fade-zoom-in">Visão Geral</h2>
+            <p data-aos="fade-zoom-in">O primeiro de seu tipo, o Huracán Sterrato explora uma nova fronteira no prazer de dirigir, projetado para forçar os limites quando o asfalto acaba. O superesportivo é equipado com uma iteração dedicada do sistema LDVI (Lamborghini Integrated Vehicle Dynamics), apresentando calibrações específicas Strada e Sport e introduzindo o modo Rally. Como uma obra de arte, ele representa a vanguarda da inovação: o conceito de superesportivo imaginado de uma forma radicalmente nova. </p>
+        </div>
+        <div class="bd-1 huracan">
+            
+        </div>
+    </div>
+    <div class="exterior">
+        <div  data-aos="fade-zoom-in" class="exterior-content">
+            <h2 data-aos="fade-zoom-in">Interior</h2>
+            <p data-aos="fade-zoom-in">
+                O interior do Huracan reflete a filosofia “sinta-se como um piloto” adotada para cada modelo Huracan. O arco traseiro de titânio, cinto de segurança de quatro pontos, bancos esportivos bi-shell de carbono e tapetes de alumínio convidam o motorista a um espaço feito para a aventura. O motorista tem controle total das funções atrás do volante, com displays dentro do veículo oferecendo acesso intuitivo às informações.
+            </p>
+        </div>
+        <div class="exterior-image gallardo">
+
+        </div>
+    </div>
+    <footer class="--footer">
+        <div class="footer-content">
+            <p class="--h3">Desenvolvido por <a href="#">@G_briell</a></p>
+           <div class="links">
+            <a href="https://www.instagram.com/g__briell/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/1mGabriel"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/gabriel-mata-pereira-a81358302/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+           </div>
+         </footer>
+    <script>
+        AOS.init();
+      </script>
+    <script>
+        const imageLambo = document.querySelector(".side-lambo")
+        if (window.innerWidth > 429 ){
+            imageLambo.src = "./image-pc/sidelambo-2.png"
+        }
+    </script>
+</body>
+</html>
